@@ -69,6 +69,7 @@ def backward(xs, y_true, y_pred, cache):
         dWf += df @ z.T
         dWi += di @ z.T
         dWc += dc_hat @ z.T
+        
 
         dbo += do
         dbf += df
