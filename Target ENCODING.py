@@ -16,6 +16,7 @@ def target_encoding(categories, targets):
                 count += 1
         
         category_mean[cat] = total / count
+        #in target encoder remember it with target we find it by using the target value
     
     encoded = []
     
